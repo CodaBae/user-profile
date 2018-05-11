@@ -1,0 +1,88 @@
+.box1 {
+        background-image: url("newnw.jpg");
+        height:500px;
+        width:155px;
+        background-repeat: no-repeat;
+        margin-left: 15%;
+        margin-top: 5%;
+    text-decoration-color: white;
+    padding-left: 6em;
+    padding-top: 5em
+}
+.squbox{
+        height:30px;
+        width:30px;
+        position: relative;
+        z-index: 1;
+       
+border:2px solid white;
+margin-bottom: 4em;
+}
+.squbox span{
+        height: 40px;
+        width: 40px;
+        background: white;
+        position: relative;
+        z-index: 1;
+}
+.num1, .num2, .num3{
+        border:1px solid white;
+        color:white;
+        height: 30px;
+        width:30px;
+        border-radius: 50px;
+        display:grid;
+        place-content:center;
+        margin-bottom: 5px;
+        z-index: 1;
+        position: relative;
+}
+.overlay{
+        height: 580px;
+        width: 251px;
+        left: -6em;
+        top: -33.8em;
+        background: black;
+        position: relative;
+        opacity: 0.7;
+}
+.p1, .p2, .p3, .p4{
+        color: white;
+        position: relative;
+        z-index: 1;
+
+}
+.p4{
+        margin-top: 6em;
+        margin-right: 3em
+}
+
+.box2{
+        height:580px;
+        width:600px;
+   display: grid;
+   place-content: center;
+        box-shadow: 2px 2px 1px black
+}
+.img2{
+height: 100px;
+width: 100px;
+border-radius: 50px;
+        margin-left: 15em
+}
+.wrapper{
+ display: flex;
+ margin-top: 5em;
+}
+button{
+        margin-left: 15em;
+        width: 10em;
+        background: black;
+        color: white;
+        padding: 1em;
+        border-radius: 2em;
+}
+.pnw{
+border-radius:50px;
+}
+
